@@ -1,0 +1,51 @@
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transition-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Pulsate shadow animation */
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(218, 7, 35, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Applying the animations */
+.animate-fade-in {
+    animation: fadeIn 3s ease-in-out, bounceIn 3s ease-in-out;
+}
+
+.animate-pulsate {
+    animation: pulsate 3s infinite;
+}
