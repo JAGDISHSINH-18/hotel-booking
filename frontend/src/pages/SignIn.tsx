@@ -47,7 +47,7 @@ const SignIn = () => {
           type="email"
           className="border rounded w-full py-1 px-2 font-normal "
           {...register("email", { required: "Email is required" })}
-        />
+        ></input>
         {errors.email && (
           <span className="text-red-500 rounded-lg">{errors.email.message}</span>
         )}

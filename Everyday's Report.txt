@@ -1,0 +1,63 @@
+16-05-2024
+Today's Work:
+Backend:
+   Implemented user login authentication.
+   Connected to MongoDB database for storing and 
+    retrieving user data.
+Frontend:
+    Created the Register Page with CSS styling.
+    Added animations for visual appeal.
+    Included form validation and error handling.
+
+
+17-05-2024
+Frontend
+   App Context and Toast Notifications
+   Checking user Login State
+   Sign-In and Sign-Out
+Facing Validate Token error: Trouble in sign in
+
+20-05-2024
+Today's Work:
+Frontend
+   Solved the SIGN-OUT error.
+   Tried to solve the error for invalid token and Unauthorized      But unable to solve it..
+
+21-05-2024
+Today's Work:
+Edited CSS for Sign-In and Register Page
+Explored What is End-2-End Testing
+Explored Playwright framework for testing and Automation and its working.
+
+22-05-2024
+Today's Work:
+	
+Learned what is automated test 
+Implement automated test for Auth test
+
+23-05-2024
+Today's Work:
+
+Auth Deployment
+Cloudinary set-up
+Created Hotel API
+Initialized new feature: Add Hotel(Basics)
+
+24-05-2024
+Today's Work:
+Working on feature: Add hotel
+
+27-05-2024
+Today's Work:
+
+Added 4 features in Add-Hotel Feature:
+Hotel-Type
+Facilities
+Guest
+Image
+
+28-05-2024
+Today's Work:
+
+
+Performed testing of the website-till today and Solved error in every features of Add-hotel

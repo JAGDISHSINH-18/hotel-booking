@@ -1,0 +1,23 @@
+MongoDb
+Express.js
+Node.js
+React.js
+
+Tailwind CSS
+React querry
+React Hook
+Cloudinary
+Stripe(payment)
+PlayWright(End 2 end Testing)
+Multer(File uploading)
+
+Hotel-Booking database:
+username:21it135
+password:QSyMczfawgCF8Jiv
+
+
+E2E-Test-DB(database):
+username:admin
+password:NTz2xfPr6LKALhRI
+
+used Randomkeygen.com for JWT_TOKEN_KEY
