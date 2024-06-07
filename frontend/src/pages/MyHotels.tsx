@@ -1,5 +1,4 @@
-// MyHotels.tsx
-import { useQuery } from "react-query";
+import { useMutation, useQuery, useQueryClient } from "react-query";
 import { Link } from "react-router-dom";
 import * as apiClient from "../api-client";
 import { BsBuilding } from "react-icons/bs";
@@ -8,6 +7,7 @@ import { BiHotel, BiRupee, BiStar } from "react-icons/bi";
 import "./styles.css";
 
 const MyHotels = () => {
+  const queryClient = useQueryClient();
   const { data: hotelData } = useQuery(
     "fetchMyHotels",
     apiClient.fetchMyHotels,
@@ -15,6 +15,17 @@ const MyHotels = () => {
       onError: () => {},
     }
   );
+
+  const deleteHotelMutation = useMutation(apiClient.deleteMyHotelById);
+
+  const handleDeleteHotel = async (hotelId: string) => {
+    try {
+      await deleteHotelMutation.mutateAsync(hotelId);
+      queryClient.invalidateQueries("fetchMyHotels");
+    } catch (error) {
+      console.error("Error deleting hotel:", error);
+    }
+  };
 
   if (!hotelData) {
     return <span>No Hotels found</span>;
@@ -62,14 +73,24 @@ const MyHotels = () => {
                 {hotel.starRating} Star Rating
               </div>
             </div>
-            <span className="flex justify-end">
-              <Link
-                to={`/edit-hotel/${hotel._id}`}
-                className="flex bg-blue-600 text-white text-xl font-bold p-2 hover:bg-blue-500"
-              >
-                View Details
-              </Link>
-            </span>
+            <div className="flex justify-between">
+              <span>
+                <button
+                  onClick={() => handleDeleteHotel(hotel._id)}
+                  className="bg-red-600 text-white text-xl font-bold p-2 hover:bg-red-500"
+                >
+                  Delete
+                </button>
+              </span>
+              <span>
+                <Link
+                  to={`/edit-hotel/${hotel._id}`}
+                  className="flex bg-blue-600 text-white text-xl font-bold p-2 hover:bg-blue-500"
+                >
+                  View Details
+                </Link>
+              </span>
+            </div>
           </div>
         ))}
       </div>

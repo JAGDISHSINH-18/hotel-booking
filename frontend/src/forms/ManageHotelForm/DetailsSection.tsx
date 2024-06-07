@@ -73,7 +73,7 @@ const DetailsSection = () => {
         Star Rating
         <select
           {...register("starRating", {
-            required: "This field is required",
+            required: "Star Rating is required",
           })}
           className="border rounded w-full p-2 text-gray-700 font-normal"
         >

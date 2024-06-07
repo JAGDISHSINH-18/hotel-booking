@@ -6,7 +6,7 @@ const Hero =()=>{
                     Find Your Next Destination
                 </h1>
                 <p className="text-1xl text-white">
-                    Search Minimum Prices on hotels for your dream tour...
+                    Search Minimum Prices on hotels for your dream tour in <b>INDIA</b>...
                 </p>
             </div>        
         </div>
