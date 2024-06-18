@@ -10,7 +10,7 @@ export type UserType = {
     _id: string;
     userId: string;
     name: string;
-    city: string;
+    city: string; 
     country: string;
     description: string;
     type: string;
@@ -21,6 +21,7 @@ export type UserType = {
     starRating: number;
     imageUrls: string[];
     lastUpdated: Date;
+    bookings: BookingType[];
   };
 
   export type BookingType = {
@@ -45,6 +46,11 @@ export type UserType = {
     };
   };
   
+  export type PaymentIntentResponse = {
+    paymentIntentId: string;
+    clientSecret: string;
+    totalCost: number;
+  };
 
  
   
