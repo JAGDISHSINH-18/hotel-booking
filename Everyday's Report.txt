@@ -1,63 +1,219 @@
-16-05-2024
-Today's Work:
+15/05/2024 Work:
+Deciding the project and workflow of it .
+
+16/05/2024 Work:
 Backend:
    Implemented user login authentication.
-   Connected to MongoDB database for storing and 
-    retrieving user data.
+    Connected to MongoDB database for storing and 
+      retrieving user data.
 Frontend:
     Created the Register Page with CSS styling.
-    Added animations for visual appeal.
-    Included form validation and error handling.
+     Added animations for visual appeal.
+     Included form validation and error handling.
 
-
-17-05-2024
+17/05/2024 Work:
 Frontend
    App Context and Toast Notifications
    Checking user Login State
    Sign-In and Sign-Out
-Facing Validate Token error: Trouble in sign in
+Facing Validate token error : Trouble in Sign in
 
-20-05-2024
-Today's Work:
+20/05/2024 Work:
 Frontend
    Solved the SIGN-OUT error.
-   Tried to solve the error for invalid token and Unauthorized      But unable to solve it..
+   Tried to solve the error for invalid token and Unauthorized But unable to solve it..
 
-21-05-2024
-Today's Work:
+21/05/2024 Work:
+	
 Edited CSS for Sign-In and Register Page
 Explored What is End-2-End Testing
 Explored Playwright framework for testing and Automation and its working.
 
-22-05-2024
-Today's Work:
-	
+22/05/2024's Work:
 Learned what is automated test 
 Implement automated test for Auth test
 
-23-05-2024
-Today's Work:
-
+23/05/2024's Work:
 Auth Deployment
 Cloudinary set-up
 Created Hotel API
 Initialized new feature: Add Hotel(Basics)
 
-24-05-2024
-Today's Work:
-Working on feature: Add hotel
+24/05/2024's Work:
 
-27-05-2024
-Today's Work:
+Working on   feature: Add hotel
 
-Added 4 features in Add-Hotel Feature:
+27/05/2024's Work:
+
+Added 2 features in Add-Hotel Feature:
 Hotel-Type
 Facilities
+
+
+28/05/2024's Work:
+Added another 2 features in Add-Hotel Feature:
 Guest
 Image
 
-28-05-2024
+29/05/2024's Work:
+Performed testing of the website-till today and Solved error in every features of Add-hotel
+
+30/05/2024's Work:
+I attempted to resolve the "500 Internal Server" Error by inspecting both client and server-side code, implementing logging, and enhancing error handling to add the hotel description, but I was unable to fix the issue.
+
+
+31/05/2024's Work:
+
+Solved the "500 Internal Server" Error to add the hotel description
+Deployed the code up to add-hotel feature
+
+03/06/2024's Work:
+
+Added a new feature: My Hotels - where you can see the hotels added by you and can even edit and view the details of the hotel
+
+
+04/06/2024's Work:
+Added new feature : View My Hotels
+Performed automated test of the feature and deployed it.
+
+
+05/06/2024's Work:
+Added new feature : Edit My Hotel  where you can edit your added hotels and maintain the information for same.
+Performed automated test of the feature and deployed it.
+
+06/06/2024's Work:
+
+Leave
+
+
+07/06/2024's Work:
+
+Add different types of filters to search :
+Hotel Ratings
+Hotel Type
+Facilities
+Hotel By Price
+And still working on it
+
+
+10/06/2024's Work:
+
+Added new hotel details
+Performed automated test for  search feature and e2e test and resolved the required error
+Deployed the code till Search feature
+
+11/06/2024's Work:
 Today's Work:
 
+What is key props.
 
-Performed testing of the website-till today and Solved error in every features of Add-hotel
+Usage of key props.
+
+Issue with index as keys
+
+How to solve the key error while indexing....
+
+
+12/06/2024's Work:
+Added new feature : Hotel Details page.
+
+Performed end to end test 
+
+Deployed the code till date...
+
+13/06/2024's Work:
+What is session storage?
+
+How does session storage work?
+
+How to save the response data in session storage?
+
+Window session storage property..
+
+
+14/06/2024's Work:
+
+Saving search terms in session storage.
+
+Added booking confirmation page 
+
+What is stripe
+
+
+17/06/2024's Work:
+
+1. Researched Stripe.js for Payment Integration
+   
+2. Advantages of Stripe for Payments
+
+3. Working Mechanism of Stripe.js
+
+4. Integration Plan for Stripe in Project
+
+5. Next Steps in Stripe Implementation
+
+
+18/06/2024's Work:
+Today's Work:
+
+Building Book now page for confirmation of booking
+
+
+19/06/2024's Work:
+1. Added Book now feature 
+
+2. Completed end-to-end test till the code
+
+3. Deployed the code till - today
+
+20/06/2024's Work:
+1. Added my bookings page 
+
+2. Completed end-to-end test 
+
+3. Deployed the code till today
+
+
+21/06/2024's Work:
+
+1. Added home page into the website
+
+2. Completed end-to-end test till the code
+
+
+
+24/06/2024's Work:
+
+Reviewed the code and worked to solve the errors from backend
+
+
+25/06/2024's Work:
+Solved the error coming from server side
+Performed the testing of the code
+Deployed the code and completed the project
+
+
+26/06/2024: --
+ Conducted a post-deployment review of the project. 
+Monitored the performance of the deployed code and collected 
+initial feedback. 
+
+27/06/2024: --
+ Analysed user feedback and identified areas for improvement. 
+Planned additional features and enhancements based on user 
+feedback. 
+
+28/06/2024: --
+ Began implementation of the first set of enhancements. 
+Conducted internal testing of new features. 
+
+01/07/2024: --
+ Continued development of additional features. 
+Performed integration testing to ensure compatibility with 
+existing code. 
+
+02/07/2024: --
+Finalized the implementation of new features. 
+Deployed updates to the live environment. 
+Conducted a team meeting to discuss the next steps and future 
+projects.
